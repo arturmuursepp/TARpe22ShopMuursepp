@@ -19,10 +19,15 @@ namespace TARpe22ShopMyyrsepp.Controllers
                 {
                     Id = x.Id,
                     Name = x.Name,
+                    Type = x.Type,
                     PassengerCount = x.PassengerCount,
                     EnginePower = x.EnginePower
                 });
             return View(result);
+        }
+        public IActionResult Add()
+        {
+            return View();
         }
     }
 }
