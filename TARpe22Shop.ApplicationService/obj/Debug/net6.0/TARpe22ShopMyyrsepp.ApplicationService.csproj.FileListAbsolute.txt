@@ -1,0 +1,11 @@
+C:\Users\opilane\source\repos\TARpe22ShopMyyrsepp\TARpe22Shop.ApplicationService\bin\Debug\net6.0\TARpe22ShopMyyrsepp.ApplicationService.deps.json
+C:\Users\opilane\source\repos\TARpe22ShopMyyrsepp\TARpe22Shop.ApplicationService\bin\Debug\net6.0\TARpe22ShopMyyrsepp.ApplicationService.dll
+C:\Users\opilane\source\repos\TARpe22ShopMyyrsepp\TARpe22Shop.ApplicationService\bin\Debug\net6.0\TARpe22ShopMyyrsepp.ApplicationService.pdb
+C:\Users\opilane\source\repos\TARpe22ShopMyyrsepp\TARpe22Shop.ApplicationService\obj\Debug\net6.0\TARpe22ShopMyyrsepp.ApplicationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\opilane\source\repos\TARpe22ShopMyyrsepp\TARpe22Shop.ApplicationService\obj\Debug\net6.0\TARpe22ShopMyyrsepp.ApplicationService.AssemblyInfoInputs.cache
+C:\Users\opilane\source\repos\TARpe22ShopMyyrsepp\TARpe22Shop.ApplicationService\obj\Debug\net6.0\TARpe22ShopMyyrsepp.ApplicationService.AssemblyInfo.cs
+C:\Users\opilane\source\repos\TARpe22ShopMyyrsepp\TARpe22Shop.ApplicationService\obj\Debug\net6.0\TARpe22ShopMyyrsepp.ApplicationService.csproj.CoreCompileInputs.cache
+C:\Users\opilane\source\repos\TARpe22ShopMyyrsepp\TARpe22Shop.ApplicationService\obj\Debug\net6.0\TARpe22ShopMyyrsepp.ApplicationService.dll
+C:\Users\opilane\source\repos\TARpe22ShopMyyrsepp\TARpe22Shop.ApplicationService\obj\Debug\net6.0\refint\TARpe22ShopMyyrsepp.ApplicationService.dll
+C:\Users\opilane\source\repos\TARpe22ShopMyyrsepp\TARpe22Shop.ApplicationService\obj\Debug\net6.0\TARpe22ShopMyyrsepp.ApplicationService.pdb
+C:\Users\opilane\source\repos\TARpe22ShopMyyrsepp\TARpe22Shop.ApplicationService\obj\Debug\net6.0\ref\TARpe22ShopMyyrsepp.ApplicationService.dll
