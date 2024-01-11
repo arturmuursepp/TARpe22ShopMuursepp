@@ -1,8 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "stz5wqw1Se7iWWk0dHjSQnFVoZqNy8zERAPYlv2lvYtI4XSdA5qYTqj5rvRXP1MgJWJGgs37pV72Suc1dmypqw==",
+  "dgSpecHash": "Nn+jIvETAqhCiJ8IuL7qXYPDODPY42qW63lzEwdp9ijHoN/83mv1eiS4EMV3yD1TWu6C4zrzGE3emOv7PyuRYw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\opilane\\source\\repos\\TARpe22ShopMyyrsepp\\TARpe22Shop.Core\\TARpe22ShopMyyrsepp.Core.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\artur\\source\\repos\\TARpe22ShopMuursepp\\TARpe22Shop.Core\\TARpe22ShopMyyrsepp.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\artur\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.2\\microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
+    "C:\\Users\\artur\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\artur\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\artur\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
+    "C:\\Users\\artur\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.2.0\\microsoft.extensions.dependencyinjection.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\artur\\.nuget\\packages\\microsoft.extensions.objectpool\\2.2.0\\microsoft.extensions.objectpool.2.2.0.nupkg.sha512",
+    "C:\\Users\\artur\\.nuget\\packages\\microsoft.extensions.options\\2.2.0\\microsoft.extensions.options.2.2.0.nupkg.sha512",
+    "C:\\Users\\artur\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\artur\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
+    "C:\\Users\\artur\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\artur\\.nuget\\packages\\system.componentmodel.annotations\\4.5.0\\system.componentmodel.annotations.4.5.0.nupkg.sha512",
+    "C:\\Users\\artur\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
+    "C:\\Users\\artur\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

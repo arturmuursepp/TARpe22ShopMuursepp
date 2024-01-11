@@ -6,4 +6,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="4.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+    <PackageReference Include="Nancy" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TARpe22Shop.Core\TARpe22ShopMyyrsepp.Core.csproj" />
+    <ProjectReference Include="..\TARpe22Shop.Data\TARpe22ShopMyyrsepp.Data.csproj" />
+  </ItemGroup>
+
 </Project>
