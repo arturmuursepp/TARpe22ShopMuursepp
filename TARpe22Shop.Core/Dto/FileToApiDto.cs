@@ -1,4 +1,5 @@
 ﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,5 @@ namespace TARpe22ShopMyyrsepp.Core.Dto
         public Guid Id { get; set; }
         public string ExistingFilePath { get; set; }
         public Guid? RealEstateId { get; set; }
-        public Guid? CarId { get; set; }
     }
 }

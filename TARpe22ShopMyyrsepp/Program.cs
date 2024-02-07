@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using TARpe22ShopMyyrsepp.ApplicationService.Services;
 using TARpe22ShopMyyrsepp.ApplicationServices.Services;
 using TARpe22ShopMyyrsepp.Core.ServiceInterface;
 using TARpe22ShopMyyrsepp.Data;
@@ -15,6 +16,7 @@ builder.Services.AddScoped<IFilesServices, FilesServices>();
 builder.Services.AddScoped<IRealEstatesServices, RealEstatesServices>();
 builder.Services.AddScoped<IWeatherForecastsServices, WeatherForecastsServices>();
 builder.Services.AddScoped<IEmailService, EmailService>();
+builder.Services.AddScoped<ICarsServices, CarsServices>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

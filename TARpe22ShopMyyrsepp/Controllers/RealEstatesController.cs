@@ -29,7 +29,7 @@ namespace TARpe22ShopMyyrsepp.Controllers
         {
             var result = _context.RealEstates
                 .OrderByDescending(y => y.CreatedAt)
-                .Select(x => new RealEstateIndexViewModel
+                .Select(x => new RealEstateViewModel
                 {
                     //{ return (Country + ", " + County + ", " + City + ", " + Address); }
                     Id = x.Id,
@@ -38,7 +38,6 @@ namespace TARpe22ShopMyyrsepp.Controllers
                     RoomCount = x.RoomCount,
                     Price = x.Price,
                     IsPropertySold = x.IsPropertySold,
-
                 });
             return View(result);
         }

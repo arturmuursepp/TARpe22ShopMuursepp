@@ -2,7 +2,7 @@
 
 namespace TARpe22ShopMyyrsepp.Models.RealEstate
 {
-    public class RealEstateIndexViewModel
+    public class RealEstateViewModel
     {
         public Guid Id { get; set; } //unique id
         public EstateType Type { get; set; } //what type of property is being sold
