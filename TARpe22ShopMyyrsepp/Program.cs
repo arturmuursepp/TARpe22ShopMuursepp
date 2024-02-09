@@ -13,10 +13,12 @@ builder.Services.AddDbContext<TARpe22ShopMyyrseppContext>(OptionsBuilderConfigur
 
 builder.Services.AddScoped<ISpaceshipsServices, SpaceshipsServices>();
 builder.Services.AddScoped<IFilesServices, FilesServices>();
+builder.Services.AddScoped<IFilesServicesCar, FilesServicesCar>();
 builder.Services.AddScoped<IRealEstatesServices, RealEstatesServices>();
 builder.Services.AddScoped<IWeatherForecastsServices, WeatherForecastsServices>();
 builder.Services.AddScoped<IEmailService, EmailService>();
 builder.Services.AddScoped<ICarsServices, CarsServices>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

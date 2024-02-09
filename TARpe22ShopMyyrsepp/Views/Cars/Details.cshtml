@@ -1,9 +1,6 @@
-﻿@model TARpe22ShopMyyrsepp.Models.RealEstate.RealEstateDetailsViewModel
-@{
-    string haspool = "";
-    string issold = "";
-}
-<h1>Delete</h1>
+﻿@model TARpe22ShopMyyrsepp.Models.Car.CarDetailsViewModel
+
+<h1>Details</h1>
 
 <div>
     <dl class="row">
@@ -12,102 +9,47 @@
             <label asp-for="Id" class="col-sm-2 col-form-label"></label>
             @Html.DisplayFor(model => model.Id)
         </div>
+
         <div class="form-group row">
-            <label asp-for="Type" class="col-sm-2 col-form-label"></label>
-            @Html.DisplayFor(model => model.Type)
+            <label asp-for="ModelName" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => model.ModelName)
         </div>
-        <div class="form-group row">
-            <label asp-for="ListingDescription" class="col-sm-2 col-form-label"></label>
-            @Html.DisplayFor(model => model.ListingDescription)
-        </div>
-        <div class="form-group row">
-            <label asp-for="Address" class="col-sm-2 col-form-label"></label>
-            @Html.DisplayFor(model => model.Address)
-        </div>
-        <div class="form-group row">
-            <label asp-for="County" class="col-sm-2 col-form-label"></label>
-            @Html.DisplayFor(model => model.County)
-        </div>
-        <div class="form-group row">
-            <label asp-for="Country" class="col-sm-2 col-form-label"></label>
-            @Html.DisplayFor(model => model.Country)
-        </div>
-        <div class="form-group row">
-            <label asp-for="City" class="col-sm-2 col-form-label"></label>
-            @Html.DisplayFor(model => model.City)
-        </div>
-        <div class="form-group row">
-            <label asp-for="PostalCode" class="col-sm-2 col-form-label"></label>
-            @Html.DisplayFor(model => model.PostalCode)
-        </div>
-        <div class="form-group row">
-            <label asp-for="ContactPhone" class="col-sm-2 col-form-label"></label>
-            @Html.DisplayFor(model => model.ContactPhone)
-        </div>
-        <div class="form-group row">
-            <label asp-for="ContactFax" class="col-sm-2 col-form-label"></label>
-            @Html.DisplayFor(model => model.ContactFax)
-        </div>
-        <div class="form-group row">
-            <label asp-for="SquareMeters" class="col-sm-2 col-form-label"></label>
-            @Html.DisplayFor(model => model.SquareMeters)
-        </div>
-        <div class="form-group row">
-            <label asp-for="Floor" class="col-sm-2 col-form-label"></label>
-            @Html.DisplayFor(model => model.Floor)
-        </div>
-        <div class="form-group row">
-            <label asp-for="FloorCount" class="col-sm-2 col-form-label"></label>
-            @Html.DisplayFor(model => model.FloorCount)
-        </div>
+
         <div class="form-group row">
             <label asp-for="Price" class="col-sm-2 col-form-label"></label>
             @Html.DisplayFor(model => model.Price)
         </div>
+
         <div class="form-group row">
-            <label asp-for="RoomCount" class="col-sm-2 col-form-label"></label>
-            @Html.DisplayFor(model => model.RoomCount)
+            <label asp-for="Type" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => model.Type)
         </div>
+
         <div class="form-group row">
-            <label asp-for="BedroomCount" class="col-sm-2 col-form-label"></label>
-            @Html.DisplayFor(model => model.BedroomCount)
+            <label asp-for="Color" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => model.Color)
         </div>
+
         <div class="form-group row">
-            <label asp-for="BathroomCount" class="col-sm-2 col-form-label"></label>
-            @Html.DisplayFor(model => model.BathroomCount)
+            <label asp-for="FuelType" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => model.FuelType)
         </div>
+
         <div class="form-group row">
-            <label asp-for="IsPropertySold" class="col-sm-2 col-form-label"></label>
-            @if (Model.IsPropertySold)
-            {
-                issold = "Yes, this property has been sold.";
-            }
-            else
-            {
-                issold = "No, this property is available.";
-            }
-            @(issold)
+            <label asp-for="SeatCount" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => model.SeatCount)
         </div>
+
         <div class="form-group row">
-            <label asp-for="WhenEstateListedAt" class="col-sm-2 col-form-label"></label>
-            @Html.DisplayFor(model => model.WhenEstateListedAt)
+            <label asp-for="Manufacturer" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => model.Manufacturer)
         </div>
+
         <div class="form-group row">
-            <label asp-for="DoesHaveSwimmingPool" class="col-sm-2 col-form-label"></label>
-            @if (Model.DoesHaveSwimmingPool)
-            {
-                haspool = "Yes, this property has a swimming pool.";
-            }
-            else
-            {
-                haspool = "No, there is no swimming pool.";
-            }
-            @(haspool)
+            <label asp-for="ManufactureDate" class="col-sm-2 col-form-label"></label>
+            @Html.DisplayFor(model => model.ManufactureDate)
         </div>
-        <div class="form-group row">
-            <label asp-for="BuiltAt" class="col-sm-2 col-form-label"></label>
-            @Html.DisplayFor(model => model.BuiltAt)
-        </div>
+
         <div class="form-group row">
             <label asp-for="CreatedAt" class="col-sm-2 col-form-label"></label>
             @Html.DisplayFor(model => model.CreatedAt)
@@ -117,10 +59,10 @@
             @Html.DisplayFor(model => model.ModifiedAt)
         </div>
 
-        @foreach (var images in Model.FileToApiViewModels)
+        @foreach (var images in Model.FileToApiCarViewModels)
         {
             <partial name="_Images" model="images" />
         }
     </dl>
-    <a asp-action="index" asp-controller="realEstates" class="btn btn-primary">Cancel</a>
+    <a asp-action="index" asp-controller="cars" class="btn btn-primary">Cancel</a>
 </div>

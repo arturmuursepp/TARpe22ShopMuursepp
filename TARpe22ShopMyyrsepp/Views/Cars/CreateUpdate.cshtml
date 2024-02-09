@@ -1,4 +1,4 @@
-﻿@model TARpe22ShopMyyrsepp.Models.RealEstate.RealEstateCreateUpdateViewModel
+﻿@model TARpe22ShopMyyrsepp.Models.Car.CarCreateUpdateViewModel
 
 @if (Model.Id.HasValue)
 {
@@ -16,86 +16,9 @@ else
         <input asp-for="ModifiedAt" type="hidden" />
 
         <div class="form-group row">
-            <label asp-for="Type" class="col-sm-2 col-form-label"></label>
+            <label asp-for="ModelName" class="col-sm-2 col-form-label"></label>
             <div class="col-sm-10">
-                <input asp-for="Type" class="form-control" />
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <label asp-for="ListingDescription" class="col-sm-2 col-form-label"></label>
-            <div class="col-sm-10">
-                <input asp-for="ListingDescription" class="form-control" />
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <label asp-for="Address" class="col-sm-2 col-form-label"></label>
-            <div class="col-sm-10">
-                <input asp-for="Address" class="form-control" />
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <label asp-for="County" class="col-sm-2 col-form-label"></label>
-            <div class="col-sm-10">
-                <input asp-for="County" class="form-control" />
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <label asp-for="Country" class="col-sm-2 col-form-label"></label>
-            <div class="col-sm-10">
-                <input asp-for="Country" class="form-control" />
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <label asp-for="City" class="col-sm-2 col-form-label"></label>
-            <div class="col-sm-10">
-                <input asp-for="City" class="form-control" />
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <label asp-for="PostalCode" class="col-sm-2 col-form-label"></label>
-            <div class="col-sm-10">
-                <input asp-for="PostalCode" class="form-control" />
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <label asp-for="ContactPhone" class="col-sm-2 col-form-label"></label>
-            <div class="col-sm-10">
-                <input asp-for="ContactPhone" class="form-control" />
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <label asp-for="ContactFax" class="col-sm-2 col-form-label"></label>
-            <div class="col-sm-10">
-                <input asp-for="ContactFax" class="form-control" />
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <label asp-for="SquareMeters" class="col-sm-2 col-form-label"></label>
-            <div class="col-sm-10">
-                <input asp-for="SquareMeters" class="form-control" />
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <label asp-for="Floor" class="col-sm-2 col-form-label"></label>
-            <div class="col-sm-10">
-                <input asp-for="Floor" class="form-control" />
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <label asp-for="FloorCount" class="col-sm-2 col-form-label"></label>
-            <div class="col-sm-10">
-                <input asp-for="FloorCount" class="form-control" />
+                <input asp-for="ModelName" class="form-control" />
             </div>
         </div>
 
@@ -107,51 +30,44 @@ else
         </div>
 
         <div class="form-group row">
-            <label asp-for="RoomCount" class="col-sm-2 col-form-label"></label>
+            <label asp-for="Type" class="col-sm-2 col-form-label"></label>
             <div class="col-sm-10">
-                <input asp-for="RoomCount" class="form-control" />
+                <input asp-for="Type" class="form-control" />
             </div>
         </div>
 
         <div class="form-group row">
-            <label asp-for="BedroomCount" class="col-sm-2 col-form-label"></label>
+            <label asp-for="Color" class="col-sm-2 col-form-label"></label>
             <div class="col-sm-10">
-                <input asp-for="BedroomCount" class="form-control" />
+                <input asp-for="Color" class="form-control" />
             </div>
         </div>
 
         <div class="form-group row">
-            <label asp-for="BathroomCount" class="col-sm-2 col-form-label"></label>
+            <label asp-for="FuelType" class="col-sm-2 col-form-label"></label>
             <div class="col-sm-10">
-                <input asp-for="BathroomCount" class="form-control" />
+                <input asp-for="FuelType" class="form-control" />
             </div>
         </div>
 
         <div class="form-group row">
-            <label asp-for="WhenEstateListedAt" class="col-sm-2 col-form-label"></label>
+            <label asp-for="SeatCount" class="col-sm-2 col-form-label"></label>
             <div class="col-sm-10">
-                <input asp-for="WhenEstateListedAt" class="form-control" />
+                <input asp-for="SeatCount" class="form-control" />
             </div>
         </div>
 
         <div class="form-group row">
-            <label asp-for="IsPropertySold" class="col-sm-2 col-form-label"></label>
+            <label asp-for="Manufacturer" class="col-sm-2 col-form-label"></label>
             <div class="col-sm-10">
-                <input asp-for="IsPropertySold" class="form-check" />
+                <input asp-for="Manufacturer" class="form-control" />
             </div>
         </div>
 
         <div class="form-group row">
-            <label asp-for="DoesHaveSwimmingPool" class="col-sm-2 col-form-label"></label>
+            <label asp-for="ManufactureDate" class="col-sm-2 col-form-label"></label>
             <div class="col-sm-10">
-                <input asp-for="DoesHaveSwimmingPool" class="form-check" />
-            </div>
-        </div>
-
-        <div class="form-group row">
-            <label asp-for="BuiltAt" class="col-sm-2 col-form-label"></label>
-            <div class="col-sm-10">
-                <input asp-for="BuiltAt" class="form-control" />
+                <input asp-for="ManufactureDate" class="form-control" />
             </div>
         </div>
         <hr />
@@ -167,19 +83,19 @@ else
             </div>
         </div>
 
-        @foreach (var images in Model.FileToApiViewModels)
+        @foreach (var images in Model.FilesToApiCarViewModels)
         {
             <partial name="_Images" model="images" />
-            <input asp-action="removeImage" asp-controller="realEstates" asp-route-imageId="@images.ImageId" type="submit" class="btn btn-danger" value="Remove Image" />
+            <input asp-action="removeImage" asp-controller="cars" asp-route-imageId="@images.ImageId" type="submit" class="btn btn-danger" value="Remove Image" />
         }
 
         @if (Model.Id.HasValue)
         {
-            <input asp-action="update" asp-controller="realEstates" type="submit" class="btn btn-primary" value="Update" />
+            <input asp-action="update" asp-controller="cars" type="submit" class="btn btn-primary" value="Update" />
         }
         else
         {
-            <input asp-action="create" asp-controller="realEstates" type="submit" class="btn btn-primary" value="create" />
+            <input asp-action="create" asp-controller="cars" type="submit" class="btn btn-primary" value="create" />
         }
     </form>
 </div>
