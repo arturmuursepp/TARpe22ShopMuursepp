@@ -21,4 +21,8 @@
     <ProjectReference Include="..\TARpe22Shop.Data\TARpe22ShopMyyrsepp.Data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\lib\microsoft\" />
+  </ItemGroup>
+
 </Project>

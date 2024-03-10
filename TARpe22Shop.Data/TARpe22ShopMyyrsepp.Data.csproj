@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TARpe22Shop.Core\TARpe22ShopMyyrsepp.Core.csproj" />
+      <ProjectReference Include="..\TARpe22Shop.Core\TARpe22ShopMyyrsepp.Core.csproj" />
   </ItemGroup>
 
 </Project>

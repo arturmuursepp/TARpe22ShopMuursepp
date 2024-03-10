@@ -157,3 +157,4 @@ C:\Users\artur\source\repos\TARpe22ShopMuursepp\TARpe22ShopMyyrsepp\bin\Debug\ne
 C:\Users\artur\source\repos\TARpe22ShopMuursepp\TARpe22ShopMyyrsepp\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
 C:\Users\artur\source\repos\TARpe22ShopMuursepp\TARpe22ShopMyyrsepp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\artur\source\repos\TARpe22ShopMuursepp\TARpe22ShopMyyrsepp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\artur\source\repos\TARpe22ShopMuursepp\TARpe22ShopMyyrsepp\bin\Debug\net6.0\libman.json

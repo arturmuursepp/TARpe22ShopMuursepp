@@ -2,11 +2,13 @@ using Microsoft.EntityFrameworkCore;
 using TARpe22ShopMyyrsepp.ApplicationServices.Services;
 using TARpe22ShopMyyrsepp.Core.ServiceInterface;
 using TARpe22ShopMyyrsepp.Data;
+using TARpe22ShopMyyrsepp.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddSignalR();
 
 builder.Services.AddDbContext<TARpe22ShopMyyrseppContext>(OptionsBuilderConfigurationExtensions => OptionsBuilderConfigurationExtensions.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -36,5 +38,5 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
+app.MapHub<ChatHub>("/chathub");
 app.Run();
