@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TARpe22Shop.ApplicationService\TARpe22ShopMyyrsepp.ApplicationService.csproj" />
+    <ProjectReference Include="..\TARpe22Shop.ApplicationService\TARpe22ShopMyyrsepp.ApplicationServices.csproj" />
     <ProjectReference Include="..\TARpe22Shop.Data\TARpe22ShopMyyrsepp.Data.csproj" />
   </ItemGroup>
 

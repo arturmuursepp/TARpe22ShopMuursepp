@@ -2788,7 +2788,7 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "TARpe22ShopMyyrsepp.ApplicationService/1.0.0": {
+      "TARpe22ShopMyyrsepp.ApplicationServices/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -2799,10 +2799,10 @@
           "TARpe22ShopMyyrsepp.Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/TARpe22ShopMyyrsepp.ApplicationService.dll": {}
+          "bin/placeholder/TARpe22ShopMyyrsepp.ApplicationServices.dll": {}
         },
         "runtime": {
-          "bin/placeholder/TARpe22ShopMyyrsepp.ApplicationService.dll": {}
+          "bin/placeholder/TARpe22ShopMyyrsepp.ApplicationServices.dll": {}
         }
       },
       "TARpe22ShopMyyrsepp.Core/1.0.0": {
@@ -8408,10 +8408,10 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "TARpe22ShopMyyrsepp.ApplicationService/1.0.0": {
+    "TARpe22ShopMyyrsepp.ApplicationServices/1.0.0": {
       "type": "project",
-      "path": "../TARpe22Shop.ApplicationService/TARpe22ShopMyyrsepp.ApplicationService.csproj",
-      "msbuildProject": "../TARpe22Shop.ApplicationService/TARpe22ShopMyyrsepp.ApplicationService.csproj"
+      "path": "../TARpe22Shop.ApplicationService/TARpe22ShopMyyrsepp.ApplicationServices.csproj",
+      "msbuildProject": "../TARpe22Shop.ApplicationService/TARpe22ShopMyyrsepp.ApplicationServices.csproj"
     },
     "TARpe22ShopMyyrsepp.Core/1.0.0": {
       "type": "project",
@@ -8430,7 +8430,7 @@
       "Microsoft.EntityFrameworkCore >= 6.0.23",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.23",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.23",
-      "TARpe22ShopMyyrsepp.ApplicationService >= 1.0.0",
+      "TARpe22ShopMyyrsepp.ApplicationServices >= 1.0.0",
       "TARpe22ShopMyyrsepp.Data >= 1.0.0"
     ]
   },
@@ -8467,8 +8467,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\artur\\source\\repos\\TARpe22ShopMuursepp\\TARpe22Shop.ApplicationService\\TARpe22ShopMyyrsepp.ApplicationService.csproj": {
-              "projectPath": "C:\\Users\\artur\\source\\repos\\TARpe22ShopMuursepp\\TARpe22Shop.ApplicationService\\TARpe22ShopMyyrsepp.ApplicationService.csproj"
+            "C:\\Users\\artur\\source\\repos\\TARpe22ShopMuursepp\\TARpe22Shop.ApplicationService\\TARpe22ShopMyyrsepp.ApplicationServices.csproj": {
+              "projectPath": "C:\\Users\\artur\\source\\repos\\TARpe22ShopMuursepp\\TARpe22Shop.ApplicationService\\TARpe22ShopMyyrsepp.ApplicationServices.csproj"
             },
             "C:\\Users\\artur\\source\\repos\\TARpe22ShopMuursepp\\TARpe22Shop.Data\\TARpe22ShopMyyrsepp.Data.csproj": {
               "projectPath": "C:\\Users\\artur\\source\\repos\\TARpe22ShopMuursepp\\TARpe22Shop.Data\\TARpe22ShopMyyrsepp.Data.csproj"

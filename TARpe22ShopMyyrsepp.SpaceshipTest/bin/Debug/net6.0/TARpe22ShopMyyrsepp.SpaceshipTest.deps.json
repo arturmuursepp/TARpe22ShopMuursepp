@@ -13,7 +13,7 @@
           "Microsoft.Extensions.DependencyInjection": "6.0.1",
           "Microsoft.Extensions.Hosting": "6.0.1",
           "Microsoft.NET.Test.Sdk": "17.8.0",
-          "TARpe22ShopMyyrsepp.ApplicationService": "1.0.0",
+          "TARpe22ShopMyyrsepp.ApplicationServices": "1.0.0",
           "TARpe22ShopMyyrsepp.Core": "1.0.0",
           "xunit": "2.6.2",
           "xunit.runner.visualstudio": "2.5.4",
@@ -2216,7 +2216,7 @@
         }
       },
       "xunit.runner.visualstudio/2.5.4": {},
-      "TARpe22ShopMyyrsepp.ApplicationService/1.0.0": {
+      "TARpe22ShopMyyrsepp.ApplicationServices/1.0.0": {
         "dependencies": {
           "MailKit": "4.3.0",
           "Microsoft.AspNetCore.Hosting": "2.2.7",
@@ -2225,7 +2225,7 @@
           "TARpe22ShopMyyrsepp.Data": "1.0.0"
         },
         "runtime": {
-          "TARpe22ShopMyyrsepp.ApplicationService.dll": {}
+          "TARpe22ShopMyyrsepp.ApplicationServices.dll": {}
         }
       },
       "TARpe22ShopMyyrsepp.Core/1.0.0": {
@@ -3530,7 +3530,7 @@
       "path": "xunit.runner.visualstudio/2.5.4",
       "hashPath": "xunit.runner.visualstudio.2.5.4.nupkg.sha512"
     },
-    "TARpe22ShopMyyrsepp.ApplicationService/1.0.0": {
+    "TARpe22ShopMyyrsepp.ApplicationServices/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

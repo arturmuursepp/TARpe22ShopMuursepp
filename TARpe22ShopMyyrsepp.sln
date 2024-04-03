@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TARpe22ShopMyyrsepp.Core", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TARpe22ShopMyyrsepp.Data", "TARpe22Shop.Data\TARpe22ShopMyyrsepp.Data.csproj", "{CA302EBD-76CB-4FBB-9758-3FFA8A79D9F7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TARpe22ShopMyyrsepp.ApplicationService", "TARpe22Shop.ApplicationService\TARpe22ShopMyyrsepp.ApplicationService.csproj", "{33F11031-9528-4764-A3DD-9D415997B940}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TARpe22ShopMyyrsepp.ApplicationServices", "TARpe22Shop.ApplicationService\TARpe22ShopMyyrsepp.ApplicationServices.csproj", "{33F11031-9528-4764-A3DD-9D415997B940}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TARpe22ShopMyyrsepp.SpaceshipTest", "TARpe22ShopMyyrsepp.SpaceshipTest\TARpe22ShopMyyrsepp.SpaceshipTest.csproj", "{BC9B1806-C190-4A85-AA73-B98E716832BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TARpe22ShopMyyrsepp.SpaceshipTest", "TARpe22ShopMyyrsepp.SpaceshipTest\TARpe22ShopMyyrsepp.SpaceshipTest.csproj", "{BC9B1806-C190-4A85-AA73-B98E716832BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

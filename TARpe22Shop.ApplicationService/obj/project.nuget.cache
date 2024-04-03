@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4zkvDw+lvLLep2StLu12jb9ca/qCmQjrNGbLxsbwe0fjFUk9jgGWuGyrLQPhOTYc+Y2osZqvIin1v4KBfkBK8g==",
+  "dgSpecHash": "S9WTzlBxUT+Ka2GzEXCRJbp0tQ2HvXADrdOo37sRXjZKYBHVycbUt+wBLwd5a7qewGxlHZ1fbYeiiiI7bQDv6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\artur\\source\\repos\\TARpe22ShopMuursepp\\TARpe22Shop.ApplicationService\\TARpe22ShopMyyrsepp.ApplicationService.csproj",
+  "projectFilePath": "C:\\Users\\artur\\source\\repos\\TARpe22ShopMuursepp\\TARpe22Shop.ApplicationService\\TARpe22ShopMyyrsepp.ApplicationServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\artur\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\artur\\.nuget\\packages\\mailkit\\4.3.0\\mailkit.4.3.0.nupkg.sha512",

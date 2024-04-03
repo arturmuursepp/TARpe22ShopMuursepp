@@ -1,17 +1,9 @@
-﻿using Microsoft.AspNetCore.Hosting;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TARpe22ShopMyyrsepp.Core.Domain;
-using TARpe22ShopMyyrsepp.Core.Dto;
-using TARpe22ShopMyyrsepp.Core.ServiceInterface;
+﻿using Microsoft.EntityFrameworkCore;
 using TARpe22ShopMyyrsepp.Core.Domain;
 using TARpe22ShopMyyrsepp.Core.Dto;
 using TARpe22ShopMyyrsepp.Core.ServiceInterface;
 using TARpe22ShopMyyrsepp.Data;
+using IHostingEnvironment = Microsoft.Extensions.Hosting.IHostingEnvironment;
 
 namespace TARpe22ShopMyyrsepp.ApplicationServices.Services
 {
@@ -73,13 +65,13 @@ namespace TARpe22ShopMyyrsepp.ApplicationServices.Services
             string uniqueFileName = null;
             if (dto.Files != null && dto.Files.Count > 0)
             {
-                if (!Directory.Exists(_webHost.WebRootPath + "\\multipleFileUpload\\"))
+                if (!Directory.Exists(_webHost.ContentRootPath + "\\multipleFileUpload\\"))
                 {
-                    Directory.CreateDirectory(_webHost.WebRootPath + "\\multipleFileUpload\\");
+                    Directory.CreateDirectory(_webHost.ContentRootPath + "\\multipleFileUpload\\");
                 }
                 foreach (var image in dto.Files)
                 {
-                    string uploadsFolder = Path.Combine(_webHost.WebRootPath, "multipleFileUpload");
+                    string uploadsFolder = Path.Combine(_webHost.ContentRootPath, "multipleFileUpload");
                     uniqueFileName = Guid.NewGuid().ToString() + "_" + image.FileName;
                     string filePath = Path.Combine(uploadsFolder, uniqueFileName);
 
@@ -103,7 +95,7 @@ namespace TARpe22ShopMyyrsepp.ApplicationServices.Services
             {
                 var imageId = await _context.FilesToApi
                     .FirstOrDefaultAsync(x => x.ExistingFilePath == dto.ExistingFilePath);
-                var filePath = _webHost.WebRootPath + "\\multipleFileUpload\\" + imageId.ExistingFilePath;
+                var filePath = _webHost.ContentRootPath + "\\multipleFileUpload\\" + imageId.ExistingFilePath;
                 if (File.Exists(filePath))
                 {
                     File.Delete(filePath);
@@ -116,8 +108,8 @@ namespace TARpe22ShopMyyrsepp.ApplicationServices.Services
         public async Task<FileToApi> RemoveImageFromApi(FileToApiDto dto)
         {
             var imageId = await _context.FilesToApi
-                .FirstOrDefaultAsync(x => x.ExistingFilePath == dto.ExistingFilePath);
-            var filePath = _webHost.WebRootPath + "\\multipleFileUpload\\" + imageId.ExistingFilePath;
+                .FirstOrDefaultAsync(x => x.Id == dto.Id);
+            var filePath = _webHost.ContentRootPath + "\\multipleFileUpload\\" + imageId.ExistingFilePath;
             if (File.Exists(filePath))
             {
                 File.Delete(filePath);

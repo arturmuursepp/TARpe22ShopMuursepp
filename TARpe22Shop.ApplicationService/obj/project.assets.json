@@ -8354,9 +8354,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\artur\\source\\repos\\TARpe22ShopMuursepp\\TARpe22Shop.ApplicationService\\TARpe22ShopMyyrsepp.ApplicationService.csproj",
-      "projectName": "TARpe22ShopMyyrsepp.ApplicationService",
-      "projectPath": "C:\\Users\\artur\\source\\repos\\TARpe22ShopMuursepp\\TARpe22Shop.ApplicationService\\TARpe22ShopMyyrsepp.ApplicationService.csproj",
+      "projectUniqueName": "C:\\Users\\artur\\source\\repos\\TARpe22ShopMuursepp\\TARpe22Shop.ApplicationService\\TARpe22ShopMyyrsepp.ApplicationServices.csproj",
+      "projectName": "TARpe22ShopMyyrsepp.ApplicationServices",
+      "projectPath": "C:\\Users\\artur\\source\\repos\\TARpe22ShopMuursepp\\TARpe22Shop.ApplicationService\\TARpe22ShopMyyrsepp.ApplicationServices.csproj",
       "packagesPath": "C:\\Users\\artur\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\artur\\source\\repos\\TARpe22ShopMuursepp\\TARpe22Shop.ApplicationService\\obj\\",
       "projectStyle": "PackageReference",

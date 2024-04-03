@@ -20,7 +20,7 @@
   </ItemGroup>
 
     <ItemGroup>
-	    <ProjectReference Include="..\TARpe22Shop.ApplicationService\TARpe22ShopMyyrsepp.ApplicationService.csproj" />
+	    <ProjectReference Include="..\TARpe22Shop.ApplicationService\TARpe22ShopMyyrsepp.ApplicationServices.csproj" />
 	    <ProjectReference Include="..\TARpe22Shop.Core\TARpe22ShopMyyrsepp.Core.csproj" />
     </ItemGroup>
 
